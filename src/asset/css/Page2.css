@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 549px;
+}
+.main> div ,
+.main>figure{
+    height: 445px;
+}
+.main>div>h2{
+    color: rgb(24, 24, 160);
+}
+.main>div>p{
+    text-align: justify;
+    color: rgb(106, 102, 102);
+    font-weight: 500;
+    font-size: 17px;
+}

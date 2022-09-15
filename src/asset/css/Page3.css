@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-3{
+    height: 450px;
+    background-color: rgba(178, 219, 191,0.21);
+    cursor: pointer;
+}
+.main-3>h2{
+    color: rgb(15, 97, 164);
+    font-weight: 800;
+    padding-top: 7%;
+}
+.img-3{
+    object-fit: cover;
+}
+.color>div>h3{
+    color: rgb(36, 123, 160);
+}
+.color>div>p{
+    color: gray;
+}
+.color>div{
+    transition:1s;
+    cursor: pointer;
+}
+.color>div:hover{
+    transform: scale(1.1);
+}
+.main-5{
+    height: 190px;
+    background-color: rgb(42, 42, 161);
+}
+.main-5>h2,
+.main-5>p{
+    color: white;
+}

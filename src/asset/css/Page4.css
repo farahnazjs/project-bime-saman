@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-4{
+    height: 690px;
+}
+.main-4>div{
+    height: 590px;
+}
+.color-4>h2{
+    color: rgb(17, 17, 129);
+    width: 100%;
+    direction: rtl;
+    padding-top: 20%;
+}
+.color-4>h2>span{
+    color: red;
+}
+.color-4>ul{
+    direction: rtl;
+    margin-top: -14%;
+}
+.color-4>ul>li{
+width: 100%;
+text-align: start;
+}
+.color-4>button{
+    width: 131px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+.color-4>button:hover{
+    border:1px solid rgb(25, 25, 167);
+    color: rgb(25, 25, 167);
+}
+

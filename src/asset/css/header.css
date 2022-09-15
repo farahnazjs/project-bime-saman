@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 90px;
+}
+header>div>div{
+    height: 90px;
+}
+.menu{
+    list-style-type: none;
+    direction: rtl;
+}
+.menu>li{
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.6s;
+}
+.menu>li:hover{
+    transform: scale(1.1);
+    color: rgb(157, 151, 151);
+}
+.m-e>button{
+    border: none;
+    margin-left: 4px;
+    background-color: white;
+    transition: 0.7s;
+}
+.m-e>button:hover{
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: rgb(197, 197, 197);
+}
+.menu-2{
+    position: absolute;
+    top: 90%;
+    width: 230px;
+   opacity: 0; 
+     visibility: hidden;
+    transition: 1s;
+    list-style-type: square;
+    box-shadow: 2px 2px 5px gray;
+    border: 1px solid rgb(205, 203, 203) ;
+    border-top: 5px solid rgb(8, 8, 84);
+    direction: ltr;
+    background-color: white;
+}
+.menu-2>li{
+    border-bottom: 2px dotted  rgb(201, 196, 196);
+    margin: 5px 10px;
+    padding: 5px 0;
+    color: black;
+}
+.menu-2>li:hover{
+    color: rgb(21, 21, 120);
+}
+.menu>li:hover .menu-2{
+    opacity: 1;
+    visibility: visible;
+}
+.menumob{
+    list-style-type: none;
+    position: fixed;
+    top: 12%;
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+    background-color:rgb(16, 16, 144);
+    color: white;
+}
+.ham{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(16, 16, 144);
+    color: white;
+    transform: rotate(90deg);
+    cursor: pointer;
+}

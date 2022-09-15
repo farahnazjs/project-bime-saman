@@ -1,0 +1,38 @@
+.sec-1{
+   width: 1207px;
+    height: 555px;
+   background-image: url(./../../asset/css/img/page1.jpg);
+   background-size: cover;
+   box-sizing: border-box;
+  z-index: -1;
+   
+    
+}
+.sec-1>div>h2{
+   color: white;
+   font-weight: 800;
+   margin-bottom: 5%;
+   font-size: 50px;
+   
+}
+.sec-1>div>div>span{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10%;
+}
+.sec-1>div>button{
+    margin-left: 67%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: rgb(14, 14, 130);
+    direction: rtl;
+    z-index: 1;
+    transition: 0.7s;
+}
+.sec-1>div>button:hover{
+    background-color: rgb(14, 14, 130);
+    color: white;
+}
+
